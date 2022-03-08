@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background-color: rgb(205, 232, 255);
+    width: 1000px;
+    margin: 0px auto;
+    padding: 25px;
+}
+
+.imagen{
+    height: 200px;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: center;
+}
+
+.fila{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: green;
+    margin-bottom: 15px;
+}
+
+.medio{
+    justify-content: space-around;
+    background-color: pink;
+}
+
+.final{
+    background-color: rgb(99, 35, 182);
+}
